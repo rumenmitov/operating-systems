@@ -1,0 +1,19 @@
+=============
+ASSIGNMENT #5
+=============
+
+
+===========
+PSEUDO CODE
+===========
+
+Pseudo code can be found in `a5.pdf`.
+
+
+===========
+SOURCE CODE
+===========
+
+Source code is in `vending_machine/src`.
+It can be built from the `vending_machine` directory with `make`.
+To run (from `vending_machine`): `./build/release/vending_machine`.

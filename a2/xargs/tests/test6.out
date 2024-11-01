@@ -1,0 +1,8 @@
+printf foo-%02d\n 1
+foo-01
+printf foo-%02d\n 2
+foo-02
+printf foo-%02d\n 3
+foo-03
+printf foo-%02d\n 4
+foo-04

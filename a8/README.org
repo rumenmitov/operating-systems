@@ -1,0 +1,15 @@
+#+title: Assignment 8
+#+author: Rumen Mitov
+
+* Theory Questions
+You can find the theory questions (8.1 and 8.2) in [[file:a8.pdf]].
+
+* Coding Question
+** Source Code
+The source code is in the _mwc_ directory.
+** Running
+To run the code (from _mwc_):
+#+begin_src shell
+  make
+  ./build/release/mwc
+#+end_src

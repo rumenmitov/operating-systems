@@ -1,0 +1,17 @@
+#+title: Assignment 3
+#+author: Rumen Mitov
+
+* Problem 3.1
+_Search Interval_: [1, 1000000]
+
+** Initial Hypothesis
+I expect the execution time of the program to dacay exponentially as more threads are added up to a certain point. After this point I expect the execution time to rise slightly as the time taken to create more threads outweighs the time saved by those new threads.
+
+** Results
+[[./assets/output.png]]
+
+As the graph above indicates the execution of the PDI program does indeed decay exponentially. After around 800 threads the gains of more threads seem minimal. This could be due to the fact that it takes time to spawn in new threads.
+
+Additionally, the time recorded was real time, so there could be scheduler interupts pausing the execution of the program, which is another reason that the time does not drop beneath the 0.2s mark.
+
+Finally, it would seem that my hypothesis that the extra threads would deteriorate the execution time to the extent that they actually cause the program to slow down, are incorrect.

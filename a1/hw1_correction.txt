@@ -1,0 +1,1 @@
+Errno is set to the last possible error code.

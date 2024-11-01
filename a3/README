@@ -1,0 +1,26 @@
+========
+Building
+========
+
+To build (from `pdi` directory):
+`make release`
+
+To run (from `pdi` directory):
+`./build/release/pdi`
+
+To generate graph (from `pdi` directory):
+`make graph`
+The result will be in `pdi/results/output.png`
+
+
+============
+Source Files
+============
+
+All the source files can be found in `pdi/src`.
+
+pdi.h - contains all the business logic of the program (parsing arguments,
+        managing threads, etc.)
+
+main.c - entrypoint to the program
+

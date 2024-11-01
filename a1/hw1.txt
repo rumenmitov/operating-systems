@@ -1,0 +1,33 @@
+Assignment 1
+Rumen Mitov
+
+
+* Problem 1.1
+** a)
+I ran `strace -c /bin/date` and that gave me a total of 133 syscalls.
+I ran `ltrace -c /bin/date` and that gave me a total of 47 library calls.
+
+**b)
+Top 3 Syscalls:
+1) mmap        - establishes a mapping between the address space of a process 
+                 to the memory object represented by the file descriptor
+2) openat      - opens a file for reading and/or writing; if the path is relative
+                 it is associated with the file descriptor instead of with the current 
+                 directory
+3) newfstatat  - access file information
+
+Top 3 Library Calls:
+1) fwrite      - writes data to stream
+2) fputc       - writes a character to a stream
+3) __freading  - returns a nonzero value if the stream is read-only,
+                 or if the last operation on the stream was a read operation, 
+                 and zero otherwise.
+
+
+* Problem 1.2
+** a)
+open() fails when search permissions are denied.
+close() failes when the file descriptor is not an opened file descriptor.
+
+** b)
+When no errors occured, errno is set to 0.
