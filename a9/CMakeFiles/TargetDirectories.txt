@@ -1,0 +1,3 @@
+/home/rumen/University/semester_3/os/assignments/a9/CMakeFiles/quiz.dir
+/home/rumen/University/semester_3/os/assignments/a9/CMakeFiles/edit_cache.dir
+/home/rumen/University/semester_3/os/assignments/a9/CMakeFiles/rebuild_cache.dir

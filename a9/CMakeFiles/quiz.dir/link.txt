@@ -1,0 +1,1 @@
+/usr/bin/gcc  -Wall -g CMakeFiles/quiz.dir/src/quiz.c.o CMakeFiles/quiz.dir/src/fetch.c.o CMakeFiles/quiz.dir/src/parse.c.o CMakeFiles/quiz.dir/src/play.c.o CMakeFiles/quiz.dir/src/errors.c.o -o quiz  -ljansson

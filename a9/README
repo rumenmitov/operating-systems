@@ -1,0 +1,6 @@
+BUILD:
+cmake .
+cmake --build .
+
+RUN:
+./quiz
